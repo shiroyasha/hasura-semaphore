@@ -1,0 +1,2 @@
+admin_secret: 'myadminsecretkey'
+endpoint: http://graphql:8080
