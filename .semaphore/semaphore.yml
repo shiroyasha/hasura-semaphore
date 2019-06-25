@@ -30,3 +30,4 @@ blocks:
           - curl -L https://github.com/hasura/graphql-engine/raw/master/cli/get.sh | bash
           - cd hasura
           - hasura version
+          - hasura migrate apply
