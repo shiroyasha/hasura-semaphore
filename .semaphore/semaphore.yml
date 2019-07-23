@@ -26,6 +26,7 @@ blocks:
       jobs:
       - name: Test
         commands:
+          - sleep 10
           - docker ps
           - checkout
           - curl -L https://github.com/hasura/graphql-engine/raw/master/cli/get.sh | bash
