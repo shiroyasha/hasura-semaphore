@@ -26,6 +26,7 @@ blocks:
       jobs:
       - name: Test
         commands:
+          - echo "here"
           - docker ps -a
           - checkout
           - curl -L https://github.com/hasura/graphql-engine/raw/master/cli/get.sh | bash
